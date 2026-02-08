@@ -77,12 +77,13 @@ body {
 
 /* Gallery */
 .gallery {
-    padding: 50px;
+    padding: 0px;
     text-align: center;
 }
 .gallery-images {
     display: flex;
     justify-content: center;
+    border: 3px dashed brown;
     gap: 15px;
     flex-wrap: wrap;
    
@@ -94,6 +95,7 @@ body {
     width: 400px;
     height: 340px;
     object-fit: cover;
+   float: inline-end;
     border-radius: 8px;
 }
 #right{
@@ -162,3 +164,15 @@ body {
     text-align: center;
     margin: 9px;
 }
+.video{
+    text-align: center;
+    width: 293px;
+    height: 290px;
+    float: top;
+    
+
+}
+#big{
+    width: 100%
+}
+
